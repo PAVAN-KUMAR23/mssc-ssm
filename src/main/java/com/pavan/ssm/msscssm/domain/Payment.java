@@ -22,6 +22,6 @@ public class Payment {
     @Enumerated(EnumType.STRING)
     private PaymentState state;
 
-    private BigDecimal price;
+    private BigDecimal amount;
 
 }
